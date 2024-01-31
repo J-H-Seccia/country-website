@@ -236,6 +236,28 @@ a:focus {
 	text-align: center;
 }
 
+.about img {
+    border: solid 3px #3C2A21;
+    padding: 1rem;
+}
+
+@media (min-width: 50em) {
+    .about {
+        display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1rem;
+        row-gap: 2rem;
+		padding: 1rem;
+        position: relative;
+    }
+
+    .about h2 {
+        text-align: left;
+    }
+    
+
+}
+
 
 
 /* Footer
