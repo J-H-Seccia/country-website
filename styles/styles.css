@@ -222,9 +222,6 @@ a:focus {
 	transition: 0.3s;
 }
 
-.page-header blockquote {
-	
-}
 
 @media (min-width: 50em) {
 
@@ -239,7 +236,7 @@ a:focus {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	max-width: 50rem;
+	max-width: 60rem;
 	padding: 1rem;
 	margin: 0 auto;
 }
