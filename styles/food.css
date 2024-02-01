@@ -124,7 +124,7 @@ a:focus {
 .site-navigation a {
 	display: block;
 	padding: 1rem;
-	font-family: "Cinzel", Times, "Times New Roman", serif;
+	font-family: "Outfit", Times, "Times New Roman", serif;
 	font-size: 1.5rem;
 	text-decoration: none;
 	color: #E5E5CB;
@@ -190,10 +190,10 @@ a:focus {
 	position: relative;
 }
 
-.page-header .header-text {
+.page-header h1 {
 	font-family: 'Cinzel', Times, "Times New Roman", sans-serif;
 	position: absolute;
-	top: 30%;
+	top: 45%;
 	left: 0;
 	right: 0;
 	z-index: 1;
@@ -204,26 +204,14 @@ a:focus {
 	backdrop-filter: blur(5px);
 }
 
-.header-text blockquote {
-	text-align: center;
-}
-
-.header-text p {
-	font-family: 'Nunito', "Helvetica Neue", Helvetica, sans-serif;
-}
-
-.page-header img {
+video {
 	display: block;
 	object-fit: cover;
 	object-position: center bottom;
 	width: 100%;
-	height: 37.5rem;
+	max-height: 37.5rem;
 	min-height: 25rem;
 	transition: 0.3s;
-}
-
-.page-header blockquote {
-	
 }
 
 @media (min-width: 50em) {
@@ -246,6 +234,28 @@ a:focus {
 
 .about h2 {
 	text-align: center;
+}
+
+.about img {
+    border: solid 3px #3C2A21;
+    padding: 1rem;
+}
+
+@media (min-width: 50em) {
+    .about {
+        display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1rem;
+        row-gap: 2rem;
+		padding: 1rem;
+        position: relative;
+    }
+
+    .about h2 {
+        text-align: left;
+    }
+    
+
 }
 
 
