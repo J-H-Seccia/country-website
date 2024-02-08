@@ -245,6 +245,76 @@ a:focus {
 	text-align: center;
 }
 
+/* Section: History */
+.history {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 60rem;
+	padding: 1rem;
+	margin: 0 auto;
+}
+
+.history h2 {
+	text-align: center;
+}
+
+.history img {
+    border: solid 3px #3C2A21;
+    padding: 1rem;
+}
+
+@media (min-width: 50em) {
+    .history {
+        display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1rem;
+        row-gap: 2rem;
+		padding: 1rem;
+        position: relative;
+    }
+
+    .history h2 {
+        text-align: left;
+    }
+}
+
+/* Section: Food */
+.food {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 60rem;
+	padding: 1rem;
+	margin: 0 auto;
+}
+
+.food h2 {
+	text-align: center;
+}
+
+.food img {
+    border: solid 3px #3C2A21;
+    padding: 1rem;
+}
+
+@media (min-width: 50em) {
+    .food {
+        display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1rem;
+        row-gap: 2rem;
+		padding: 1rem;
+        position: relative;
+    }
+
+    .food h2 {
+        text-align: left;
+    }
+    
+
+}
+
 
 
 /* Footer
