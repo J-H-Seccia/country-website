@@ -92,7 +92,9 @@ a:focus {
 .site-wrapper {
 	max-width: 120rem;
 	margin: 0 auto;
+	
 }
+
 
 /* Header
 --------------------------------------------- */
@@ -315,6 +317,41 @@ a:focus {
 
 }
 
+/* Section: Credits */
+.credits {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 60rem;
+	padding: 1rem;
+	margin: 0 auto;
+}
+
+.credits h2 {
+	text-align: center;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+th, td {
+	padding: 10px;
+	text-align: left;
+	border: 1px solid #ddd;
+}
+
+th {
+	background-color: #3C2A21;
+}
+
+tr:hover {
+	background-color: #3C2A21;
+}
+
+
 
 
 /* Footer
@@ -322,6 +359,7 @@ a:focus {
 .site-footer {
 	background-color: #3C2A21;
 	padding: 1rem;
+
 }
 
 @media (min-width: 50em) {
@@ -333,7 +371,7 @@ a:focus {
 	}
 
 	.site-footer p {
-		margin: 0;
+		margin: 0 auto;
 	}
 
 }
