@@ -43,7 +43,6 @@ body {
 
 .nunito {
     font-family: "Nunito", sans-serif;
-    font-optical-sizing: auto;
     font-style: normal;
 }
 
@@ -217,6 +216,9 @@ a:focus {
 .header-text p {
 	font-family: 'Nunito', "Helvetica Neue", Helvetica, sans-serif;
 }
+#quote-author {
+	font-family: 'Cinzel', Times, "Times New Roman", sans-serif;
+}
 
 .page-header img {
 	display: block;
@@ -346,7 +348,7 @@ th, td {
 	border: 1px solid #ddd;
 }
 
-th {
+.table-heading {
 	background-color: #3C2A21;
 }
 
