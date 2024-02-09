@@ -141,7 +141,7 @@ a:focus {
 
 .menu-toggle {
 	display: block;
-	background-color: transparent;
+	background-color: #D5CEA3;
 	border: 0;
 	padding: 1rem;
 }
@@ -206,6 +206,10 @@ a:focus {
 	backdrop-filter: blur(5px);
 }
 
+.header-text h1 {
+	text-align: center;
+}
+
 .header-text blockquote {
 	text-align: center;
 }
@@ -221,7 +225,6 @@ a:focus {
 	width: 100%;
 	height: 37.5rem;
 	min-height: 25rem;
-	transition: 0.3s;
 }
 
 
@@ -382,7 +385,7 @@ input, textarea {
 	box-sizing: border-box;
 }
 
-button {
+#submit-btn {
 	background-color: #4caf50;
 	color: #fff;
 	padding: 10px;
@@ -392,7 +395,7 @@ button {
 	margin: 0 auto;
 }
 
-button:hover {
+#submit-btn:hover {
 	background-color: #45a049;
 }
 
